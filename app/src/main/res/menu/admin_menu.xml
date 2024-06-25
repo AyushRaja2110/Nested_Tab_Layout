@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+        <item
+            android:id="@+id/nav_notice"
+            android:title="Add Notice" />
+        <item
+            android:id="@+id/nav_studlist"
+            android:title="Add Student"/>
+        <item
+            android:id="@+id/nav_facility"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:title="Attendance" />
+
+    </group>
+
+    <item android:title="Register Account">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
